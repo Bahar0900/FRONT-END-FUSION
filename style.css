@@ -1,0 +1,142 @@
+/*--------row-4------*/
+#row4 {
+    height: 400px;
+    width: 100%;
+    background: #fff;
+}
+
+.slider_section {
+    width: 1139px;
+    margin-top: -148px;
+    background: white;
+}
+
+.item img {
+    width: 1100px;
+    height: 350px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.item {
+    margin-bottom: 70px;
+}
+
+.carousel-caption {
+    background: #adadad;
+    width: 610px;
+    height: -5px;
+    margin-left: 260px;
+    color: black;
+}
+
+.carousel-caption h2 {}
+.carousel-caption p {}
+
+.carousel-indicators li {
+    border: 2px solid #333333;
+    background: #333333;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 2px;
+}
+
+.carousel-indicators .active {
+    border: 2px solid #333333;
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 2px;
+}
+/*-------------row6------*/
+#row6 {
+    height: 300px;
+    width: 100%;
+    background: #fff;
+}
+
+.title_bg {
+    width: 1104px;
+    margin: 0 auto;
+}
+
+.title_bg h4 {
+    width: 200px;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -13px;
+    text-transform: uppercase;
+}
+
+.border_bg {
+    background: url(../image/template_demo_1.jpg);
+    height: 8px;
+}
+
+.blog_part {
+    margin-top: 30px;
+    color: #999999;
+}
+
+.blog_part a {
+    text-decoration: none;
+}
+
+.blog_part img {}
+
+.blog_part h4 {
+    text-align: left;
+}
+
+.part {
+    height: 60px;
+}
+
+.part img {}
+
+.part h4 {
+    margin: 0px;
+    margin-left: 14px;
+    line-height: 24px;
+}
+
+.part h4 a {
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+
+.blog_part p {}
+
+.box {
+    background: #97455f;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    margin-top: 23px;
+}
+
+.box h2 {
+    font-size: 44px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.box p {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.box button {
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 23px;
+    border-radius: 8px;
+    background: white!important;
+    color: #97455f!important;
+}
+

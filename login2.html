@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contest</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--    <link rel="stylesheet" href="css/all.min.css">-->
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="capter_logo.jpg" alt="Chapter Logo" style="height: 50px;">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="event.html">Event</a></li>
+                    <li><a href="#">Member</a></li>
+                    <li><a href="#">Executive</a></li>
+                    <li><a href="#">Committee</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li class="active"><a href="login.html">Join Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="panel-default">
+                        <div class="panel-heading">
+                            <h1 class="">User Register</h1>
+                        </div>
+                        <div class="panel-body">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="">E-mail</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <input type="submit" value="Login" class="btn btn-primary">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </section>
+
+        <button class="btn btn-primary" data-toggle="modal" data-target="#signupModal">Signup</button>
+        <div id="signupModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>User Signup</h3>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>E-mail</label>
+                                <input class="form-control" placeholder="e-mail" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input class="form-control" placeholder="password" type="password">
+                            </div>
+                            <input type="submit" class="btn btn-primary" value="Signup">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <span class="close" data-dismiss="modal">&times;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
